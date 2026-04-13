@@ -1,0 +1,55 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.env
+*.pyc
+*.db
+
+# Data and reports (keep structure, ignore content)
+data/raw/*
+data/processed/*
+reports/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!reports/.gitkeep
+
+# Debug / temp outputs
+debug_out.txt
+debug_stderr.txt
+debug_stdout.txt
+pipeline_out.txt
+pipeline_result.txt
+
+# Backup files
+frontend/app_backup.py
+frontend/app_clean.py
+
+# ML model files (large binaries - Railway will train fresh)
+dio_trading_app/models/*.pkl
+dio_trading_app/models/*.joblib
+models/*.pkl
+models/*.joblib
+
+# Logs
+logs/
+*.log
+
+# Docs (not needed for deployment)
+*.md
+!README.md
+
+# Android / APK build artifacts (large, not needed for web deploy)
+apk_ready/
+*.apk
+*.aab
+
+# Jupyter
+notebooks/
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# Legacy src folder
+src/

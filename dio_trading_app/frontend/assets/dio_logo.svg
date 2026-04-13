@@ -1,0 +1,57 @@
+<svg width="520" height="160" viewBox="0 0 520 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="32" y1="24" x2="488" y2="136" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0E1625"/>
+      <stop offset="1" stop-color="#13243A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="77" y1="40" x2="147" y2="121" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F0A500"/>
+      <stop offset="1" stop-color="#FFC857"/>
+    </linearGradient>
+    <linearGradient id="bull" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#2CE08D"/>
+      <stop offset="1" stop-color="#16A34A"/>
+    </linearGradient>
+    <linearGradient id="bear" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#FF7A7A"/>
+      <stop offset="1" stop-color="#DC2626"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="8" y="8" width="504" height="144" rx="28" fill="url(#bg)"/>
+  <rect x="8.75" y="8.75" width="502.5" height="142.5" rx="27.25" stroke="#22324A" stroke-width="1.5"/>
+
+  <g>
+    <rect x="38" y="28" width="118" height="104" rx="24" fill="#0B1320" stroke="#1E2A3E" stroke-width="2"/>
+    <path d="M78 48H100C121.539 48 139 65.4609 139 87C139 108.539 121.539 126 100 126H78V48Z" fill="url(#accent)"/>
+    <path d="M84 61H100C114.359 61 126 72.6406 126 87C126 101.359 114.359 113 100 113H84V61Z" fill="#0B1320"/>
+    <path d="M93 74H101.5C108.956 74 115 80.0442 115 87.5C115 94.9558 108.956 101 101.5 101H93V74Z" fill="url(#accent)" opacity="0.9"/>
+    <path d="M121 102L135 88.5L125 88.5L125 64H117V88.5L107 88.5L121 102Z" fill="#2CE08D"/>
+  </g>
+
+  <g opacity="0.95">
+    <path d="M187 108C219 100 243 78 268 84C296 91 309 63 337 58C360 53 376 64 391 51" stroke="#FFC857" stroke-width="4.5" stroke-linecap="round"/>
+    <circle cx="390" cy="51" r="5.5" fill="#FFC857"/>
+
+    <line x1="208" y1="92" x2="208" y2="121" stroke="#93A4BD" stroke-width="2"/>
+    <rect x="201" y="99" width="14" height="15" rx="3" fill="url(#bull)"/>
+
+    <line x1="232" y1="76" x2="232" y2="113" stroke="#93A4BD" stroke-width="2"/>
+    <rect x="225" y="83" width="14" height="18" rx="3" fill="url(#bear)"/>
+
+    <line x1="256" y1="68" x2="256" y2="105" stroke="#93A4BD" stroke-width="2"/>
+    <rect x="249" y="73" width="14" height="24" rx="3" fill="url(#bull)"/>
+
+    <line x1="280" y1="80" x2="280" y2="117" stroke="#93A4BD" stroke-width="2"/>
+    <rect x="273" y="86" width="14" height="20" rx="3" fill="url(#bull)"/>
+
+    <line x1="304" y1="63" x2="304" y2="101" stroke="#93A4BD" stroke-width="2"/>
+    <rect x="297" y="70" width="14" height="18" rx="3" fill="url(#bear)"/>
+  </g>
+
+  <g fill="#F8FAFC">
+    <text x="184" y="62" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="2">DIO TRADING</text>
+    <text x="185" y="92" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="4" fill="#F0A500">EUR/USD INTELLIGENCE</text>
+    <text x="185" y="117" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="500" fill="#A9B7C8">Signals • Backtests • Risk-Aware Execution</text>
+  </g>
+</svg>
