@@ -1,0 +1,14 @@
+.git
+.gitignore
+.venv
+__pycache__
+.pytest_cache
+.ipynb_checkpoints
+.vscode
+apk_ready
+notebooks
+logs
+*.log
+*.parquet
+**/__pycache__
+**/*.pyc
