@@ -22,8 +22,8 @@ pipeline_out.txt
 pipeline_result.txt
 
 # Backup files
-frontend/app_backup.py
-frontend/app_clean.py
+dio_trading_app/frontend/app_backup.py
+dio_trading_app/frontend/app_clean.py
 
 # ML model files (large binaries - Railway will train fresh)
 dio_trading_app/models/*.pkl
@@ -33,6 +33,7 @@ models/*.joblib
 
 # Logs
 logs/
+dio_trading_app/logs/
 *.log
 
 # Docs (not needed for deployment)
@@ -50,6 +51,9 @@ notebooks/
 
 # VS Code settings
 .vscode/
+
+# Data cache artifacts
+dio_trading_app/data/cache/
 
 # Legacy src folder
 src/
